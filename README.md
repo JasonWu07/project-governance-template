@@ -6,6 +6,18 @@
 
 This repository is released under the [MIT License](LICENSE).
 
+## Versioning
+
+This repository uses:
+
+- semantic versions such as `v1.2.3`
+- release notes that include the release date
+
+See:
+
+- [RELEASE_VERSIONING_POLICY.md](RELEASE_VERSIONING_POLICY.md)
+- [RELEASE_NOTES.template.md](RELEASE_NOTES.template.md)
+
 ## 包含内容
 
 - `governance/00-core/`
