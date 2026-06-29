@@ -7,10 +7,13 @@
 - `governance/00-core/`
   - 交付标准模板
   - 任务工作流模板
+  - 核心治理索引模板
   - QA 协作模板
   - 需求评审模板
   - 联调协作模板
   - 缺陷管理模板
+  - commit / PR / push 协作模板
+  - handoff / checklist / task examples / mode prefix 模板
 - `governance/examples/`
   - 任务单示例
   - 提测单示例
