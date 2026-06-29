@@ -24,6 +24,9 @@
   - `AGENTS.md.template`
   - `CLAUDE.md.template`
   - `docs/README.template.md`
+- 治理入口与协作模板
+  - `docs/governance/README.template.md`
+  - `.github/pull_request_template.md.template`
 
 ## 使用方式
 
