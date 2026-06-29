@@ -2,6 +2,10 @@
 
 一套可迁移到其他项目的治理模板包。
 
+## License
+
+This repository is released under the [MIT License](LICENSE).
+
 ## 包含内容
 
 - `governance/00-core/`
@@ -23,6 +27,9 @@
 - `guides/`
   - 治理迁移指南
   - 新项目落地清单
+- 公开协作与快速启动文档
+  - `CONTRIBUTING.md`
+  - `QUICK_START.md`
 - 项目入口模板
   - `AGENTS.md.template`
   - `CLAUDE.md.template`
