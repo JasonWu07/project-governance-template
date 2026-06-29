@@ -1,0 +1,42 @@
+# CLAUDE.md
+
+## Project Overview
+
+`{{project_name}}` 是一个 `{{project_type}}` 项目。
+
+当前阶段：
+
+- `{{current_phase}}`
+
+## Entry Rule
+
+接手任务时，先读：
+
+1. `docs/README.md`
+2. `docs/governance/README.md`
+3. `docs/governance/00-core/AGENT_HANDOFF_STATE.md`（如果项目启用）
+
+## Working Principles
+
+1. 先理解上下文，再实现
+2. 先确认边界，再修改
+3. 小步推进，持续验证
+4. 不把历史项目事实带入当前项目
+5. 文档、测试、交付状态同步收口
+
+## Standard References
+
+优先参考：
+
+- `docs/governance/00-core/TASK_WORKFLOW.md`
+- `docs/governance/00-core/DELIVERY_STANDARD.md`
+- `docs/governance/00-core/QA_TEST_COLLABORATION_STANDARD.md`
+- `docs/governance/00-core/REQUIREMENT_REVIEW_STANDARD.md`
+- `docs/governance/00-core/INTEGRATION_COLLABORATION_STANDARD.md`
+- `docs/governance/00-core/DEFECT_MANAGEMENT_STANDARD.md`
+
+## Replace Before Use
+
+- `{{project_name}}`
+- `{{project_type}}`
+- `{{current_phase}}`

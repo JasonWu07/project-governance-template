@@ -1,0 +1,65 @@
+# AGENTS.md
+
+## Project Overview
+
+`{{project_name}}` 是一个 `{{project_type}}` 项目。
+
+当前阶段：
+
+- `{{current_phase}}`
+
+## First Read Rule
+
+进入项目后，先读：
+
+1. `docs/README.md`
+2. `docs/governance/README.md`
+3. `docs/governance/00-core/TASK_WORKFLOW.md`
+
+不要跳过入口文档直接开始改代码。
+
+## Core Working Rules
+
+1. 小步修改，不做 Big Bang rewrite
+2. 先明确范围，再进入实现
+3. 先补测试保护，再做高风险改动
+4. 文档与代码状态必须同步
+5. 如果信息不足，明确标记 `Unknown`
+
+## Project Memory Entry
+
+至少在本文件里维护：
+
+- 当前项目阶段
+- 当前主线任务
+- 当前高风险边界
+- 当前推荐阅读顺序
+
+## Recommended Commands
+
+```bash
+{{dev_commands}}
+{{test_commands}}
+{{build_commands}}
+```
+
+## Documentation Rules
+
+项目文档统一放在：
+
+- `docs/`
+
+至少维护：
+
+- `docs/README.md`
+- `docs/governance/README.md`
+- `docs/governance/00-core/*`
+
+## Replace Before Use
+
+- `{{project_name}}`
+- `{{project_type}}`
+- `{{current_phase}}`
+- `{{dev_commands}}`
+- `{{test_commands}}`
+- `{{build_commands}}`

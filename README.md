@@ -20,6 +20,10 @@
 - `guides/`
   - 治理迁移指南
   - 新项目落地清单
+- 项目入口模板
+  - `AGENTS.md.template`
+  - `CLAUDE.md.template`
+  - `docs/README.template.md`
 
 ## 使用方式
 
