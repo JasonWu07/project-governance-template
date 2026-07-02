@@ -9,6 +9,7 @@
 1. [TEMPLATE_SYSTEM_OVERVIEW.md](TEMPLATE_SYSTEM_OVERVIEW.md)
 2. [QUICK_START.md](QUICK_START.md)
 3. [guides/GOVERNANCE_TEMPLATE_MIGRATION_GUIDE.md](guides/GOVERNANCE_TEMPLATE_MIGRATION_GUIDE.md)
+4. [docs/README.example.md](docs/README.example.md)
 
 ## License
 
@@ -61,9 +62,12 @@ See:
   - `AGENTS.md.template`
   - `CLAUDE.md.template`
   - `docs/README.template.md`
+  - `docs/README.example.md`
 - 治理入口与协作模板
   - `docs/governance/README.template.md`
   - `.github/pull_request_template.md.template`
+- 最小初始化脚本
+  - `scripts/init-governance-template.sh`
 
 ## 使用方式
 
@@ -77,6 +81,7 @@ See:
 4. 补新项目的技术栈、环境、架构、模块边界
 5. 更新新项目的 `AGENTS.md` / `CLAUDE.md`
 6. 根据项目需要裁剪或保留各 `mode:*` 模板
+7. 可直接执行 `scripts/init-governance-template.sh /path/to/new-project`
 
 ## 重要原则
 

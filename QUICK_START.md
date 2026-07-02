@@ -6,6 +6,7 @@ Before starting, strongly recommend reading:
 
 1. `TEMPLATE_SYSTEM_OVERVIEW.md`
 2. `guides/PROJECT_BOOTSTRAP_CHECKLIST.md`
+3. `docs/README.example.md`
 
 ## 0. Goal
 
@@ -30,6 +31,20 @@ Recommended starting set:
 - `governance/00-core/*.template.md`
 
 Rename them by removing `.template`.
+
+Or use the minimal bootstrap script:
+
+```bash
+bash scripts/init-governance-template.sh /path/to/new-project
+```
+
+This script will:
+
+- create `docs/governance/00-core/`
+- copy `AGENTS.md` / `CLAUDE.md`
+- create `docs/README.md`
+- create `docs/governance/README.md`
+- expand all `governance/00-core/*.template.md` into runnable `.md` files
 
 ## 2. Replace Placeholders
 
