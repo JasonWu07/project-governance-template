@@ -14,7 +14,9 @@
 
 1. `docs/README.md`
 2. `docs/governance/README.md`
-3. `docs/governance/00-core/AGENT_HANDOFF_STATE.md`（如果项目启用）
+3. `docs/governance/00-core/GLOBAL_WORKFLOW_HUB.md`
+4. `docs/governance/00-core/WORKFLOW_ONE_PAGE.md`
+5. `docs/governance/00-core/AGENT_HANDOFF_STATE.md`（如果项目启用）
 
 ## Working Principles
 
@@ -28,12 +30,24 @@
 
 优先参考：
 
+- `docs/governance/00-core/GLOBAL_WORKFLOW_HUB.md`
+- `docs/governance/00-core/MODE_TO_SKILLS_PLAYBOOK.md`
 - `docs/governance/00-core/TASK_WORKFLOW.md`
 - `docs/governance/00-core/DELIVERY_STANDARD.md`
 - `docs/governance/00-core/QA_TEST_COLLABORATION_STANDARD.md`
 - `docs/governance/00-core/REQUIREMENT_REVIEW_STANDARD.md`
 - `docs/governance/00-core/INTEGRATION_COLLABORATION_STANDARD.md`
 - `docs/governance/00-core/DEFECT_MANAGEMENT_STANDARD.md`
+- `docs/governance/00-core/WORKFLOW_MINIMUM_VALIDATION_MATRIX.md`
+
+## Mode Rule
+
+当任务带 `mode:*` 前缀时：
+
+1. 先按 `MODE_TO_SKILLS_PLAYBOOK.md` 选择执行路径
+2. 再套对应的 `MODE_*_STANDARD_TEMPLATE.md`
+3. 收尾时对照 `WORKFLOW_MINIMUM_VALIDATION_MATRIX.md`
+4. 需要交接时，使用 `MULTI_AGENT_HANDOFF_TEMPLATE.md`
 
 ## Replace Before Use
 

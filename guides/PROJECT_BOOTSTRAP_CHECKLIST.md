@@ -28,22 +28,30 @@
 - `docs/README.md`
 - `docs/governance/README.md`
 - `docs/governance/00-core/`
+- `docs/governance/00-core/GLOBAL_WORKFLOW_HUB.md`
+- `docs/governance/00-core/WORKFLOW_ONE_PAGE.md`
 
 ### Phase 2. 建立核心治理标准
 
 至少落地：
 
+- `GLOBAL_WORKFLOW_HUB`
+- `WORKFLOW_ONE_PAGE`
+- `MODE_TO_SKILLS_PLAYBOOK`
 - `DELIVERY_STANDARD`
 - `TASK_WORKFLOW`
 - `QA_TEST_COLLABORATION_STANDARD`
 - `REQUIREMENT_REVIEW_STANDARD`
 - `INTEGRATION_COLLABORATION_STANDARD`
 - `DEFECT_MANAGEMENT_STANDARD`
+- `WORKFLOW_MINIMUM_VALIDATION_MATRIX`
 
 ### Phase 3. 建立任务输入与交付模板
 
 至少落地：
 
+- 任务类型 -> 输出物模板索引
+- 多 agent 交接模板
 - 任务模板
 - 任务示例
 - commit 标准
@@ -77,15 +85,19 @@
 - [ ] `docs/README.md` 已建立
 - [ ] `docs/governance/README.md` 已建立
 - [ ] `docs/governance/00-core/` 已建立
+- [ ] `GLOBAL_WORKFLOW_HUB` 已建立
+- [ ] `WORKFLOW_ONE_PAGE` 已建立
 
 ### B. 核心标准
 
+- [ ] mode -> skills 对照已建立
 - [ ] 任务工作流已建立
 - [ ] 交付标准已建立
 - [ ] QA 协作标准已建立
 - [ ] 需求评审标准已建立
 - [ ] 联调协作标准已建立
 - [ ] 缺陷管理标准已建立
+- [ ] 最小验证要求总表已建立
 
 ### C. Git 协作
 
@@ -97,6 +109,7 @@
 
 - [ ] `AGENTS.md` 已指向 `docs/README.md`
 - [ ] `CLAUDE.md` 已指向 `docs/README.md`
+- [ ] `AGENTS.md` / `CLAUDE.md` 已指向 workflow hub
 - [ ] 当前阶段与边界已写清
 
 ### E. 项目事实
@@ -117,6 +130,7 @@
 3. 任务结束后有统一收口动作
 4. 联调、QA、缺陷关闭都有标准
 5. 文档不会和真实状态长期脱节
+6. 不同 `mode:*` 任务能快速找到对应模板与最低验证要求
 
 ---
 
@@ -134,7 +148,7 @@
 ## Related Files
 
 - `GOVERNANCE_TEMPLATE_MIGRATION_GUIDE.md`
-- `docs/templates/governance/README.md`
+- `docs/governance/README.md`
 
 本文件关注的是：
 

@@ -22,6 +22,9 @@
 
 - `docs/README.md` 的总入口思路
 - `docs/governance/README.md` 的治理入口结构
+- `GLOBAL_WORKFLOW_HUB`
+- `WORKFLOW_ONE_PAGE`
+- `MODE_TO_SKILLS_PLAYBOOK`
 - `DELIVERY_STANDARD`
 - `TASK_WORKFLOW`
 - `QA_TEST_COLLABORATION_STANDARD`
@@ -31,8 +34,11 @@
 - `COMMIT_MESSAGE_STANDARD`
 - `PULL_REQUEST_STANDARD`
 - `GITHUB_PUSH_WORKFLOW`
-- `DOCUMENTATION_GOVERNANCE_WORKFLOW`
 - `MODE_PREFIX_CONVENTION`
+- `TASK_TYPE_TO_OUTPUT_INDEX`
+- `WORKFLOW_MINIMUM_VALIDATION_MATRIX`
+- `MULTI_AGENT_HANDOFF_TEMPLATE`
+- 各类 `MODE_*_STANDARD_TEMPLATE`
 - 各类任务模板、提测模板、缺陷模板
 
 这些文档的核心价值在于：
@@ -69,7 +75,7 @@
 
 从：
 
-- `docs/templates/governance/`
+- `governance/00-core/`
 
 复制到新项目。
 
@@ -80,6 +86,8 @@
 - `docs/README.md`
 - `docs/governance/README.md`
 - `docs/governance/00-core/`
+- `docs/governance/00-core/GLOBAL_WORKFLOW_HUB.md`
+- `docs/governance/00-core/WORKFLOW_ONE_PAGE.md`
 
 ### Step 3. 用新项目事实替换占位符
 
@@ -110,6 +118,7 @@
 - `AGENTS.md`
 - `CLAUDE.md`
 - `docs/README.md`
+- `docs/governance/00-core/GLOBAL_WORKFLOW_HUB.md`
 
 确保任何 agent 一进项目都知道：
 
@@ -152,6 +161,7 @@
 - [ ] 新项目没有残留旧环境地址
 - [ ] 新项目没有残留旧模块名
 - [ ] 入口文档已指向新项目真实文档
+- [ ] workflow hub / one-page / validation matrix 已落地
 - [ ] AGENTS / CLAUDE 已更新
 - [ ] 模板文档中的占位符已替换
 
@@ -167,13 +177,14 @@
 4. 新项目 `AGENTS.md`
 5. 新项目 `CLAUDE.md`
 6. 一份“当前项目事实快照”
+7. 一份工作流最小验证要求表
 
 ---
 
 ## Related Files
 
 - `PROJECT_BOOTSTRAP_CHECKLIST.md`
-- `docs/templates/governance/README.md`
+- `docs/governance/README.md`
 
 本文件关注的是：
 

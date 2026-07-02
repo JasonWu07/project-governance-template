@@ -14,7 +14,9 @@
 
 1. `docs/README.md`
 2. `docs/governance/README.md`
-3. `docs/governance/00-core/TASK_WORKFLOW.md`
+3. `docs/governance/00-core/GLOBAL_WORKFLOW_HUB.md`
+4. `docs/governance/00-core/WORKFLOW_ONE_PAGE.md`
+5. `docs/governance/00-core/TASK_WORKFLOW.md`
 
 不要跳过入口文档直接开始改代码。
 
@@ -54,6 +56,15 @@
 - `docs/README.md`
 - `docs/governance/README.md`
 - `docs/governance/00-core/*`
+
+## Workflow System
+
+如果任务带 `mode:*` 前缀：
+
+1. 看 `docs/governance/00-core/MODE_TO_SKILLS_PLAYBOOK.md`
+2. 套对应 `MODE_*_STANDARD_TEMPLATE.md`
+3. 按 `WORKFLOW_MINIMUM_VALIDATION_MATRIX.md` 检查最低验证要求
+4. 如需交接，使用 `MULTI_AGENT_HANDOFF_TEMPLATE.md`
 
 ## Replace Before Use
 

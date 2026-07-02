@@ -13,9 +13,12 @@
 先读：
 
 - `docs/governance/README.md`
+- `docs/governance/00-core/GLOBAL_WORKFLOW_HUB.md`
+- `docs/governance/00-core/WORKFLOW_ONE_PAGE.md`
 - `docs/governance/00-core/TASK_WORKFLOW.md`
 - `docs/governance/00-core/DELIVERY_STANDARD.md`
 - `docs/governance/00-core/QA_TEST_COLLABORATION_STANDARD.md`
+- `docs/governance/00-core/MODE_TO_SKILLS_PLAYBOOK.md`
 
 ### 2. 项目事实入口
 
@@ -33,6 +36,7 @@
 - 当前主任务是什么
 - 任务怎么进入开发
 - 任务怎么测试、联调、验收、交付
+- 不同任务类型该套什么模板
 
 ## Recommended Structure
 
